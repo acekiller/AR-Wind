@@ -1,0 +1,103 @@
+Temp/
+Build/
+Xcode/
+#
+# Normal rules
+#
+.*
+*.o
+*.a
+*.a.*
+*.la.*
+*.la
+*.so
+*.so.*
+*.s
+*.swp
+*.i
+*~
+*.orig
+*.order
+*.gz
+*.bz2
+*.lzma
+*.lzo
+*.patch
+*.gcno
+*.xz
+*.elf
+*.bin
+\#*#
+a.out
+
+#
+# git files that we don't want to ignore even it they are dot-files
+#
+!.gitignore
+!.mailmap
+
+# gnu global files
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+
+# quilt's files
+patches
+series
+
+# cscope files
+cscope.*
+ncscope.*
+
+# stgit generated dirs
+patches-*
+
+#CMake files
+.cmake
+
+.DS_Store
+# Compiled source #
+three20/Build/
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+# xcode noise
+*.mode1v3
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.pyc 
+build/*
+Xcode/build/*
